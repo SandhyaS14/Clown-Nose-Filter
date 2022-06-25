@@ -1,0 +1,29 @@
+body {
+    margin: 50px;
+    text-align: center;
+}
+
+hr {
+    background-color: aqua;
+    height: 5px;
+}
+
+canvas {
+    animation-name: transition;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes transition {
+    0% {box-shadow: 1px 1px 30px red;}
+    50% {box-shadow: 1px 1px 30px yellow}
+    100% {box-shadow: 1px 1px 30px red;}
+}
+
+h3 {
+    font-size: 25px !important;
+}
+
+.btn-warning:hover {
+    background-color: red;
+}
